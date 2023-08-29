@@ -1,0 +1,295 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 5px;
+}
+
+header img {
+  width: 10vw;
+  height: 10vh;
+}
+
+.div {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header input {
+  width: 35vw;
+  height: 7vh;
+  padding-left: 30px;
+  border-radius: 30px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.Search {
+  position: absolute;
+  margin-left: 10px;
+  color: gray;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.btnDiv {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn1 {
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  height: 45px;
+  width: 80px;
+  font-weight: bold;
+}
+
+.cart {
+  font-size: 22px;
+}
+
+.btn3 {
+  background-color: transparent;
+  width: 50px !important;
+  border: 1px solid black;
+}
+
+.Globe {
+  font-size: large;
+}
+.div {
+  height: 11vh;
+  width: inherit;
+}
+.dropdown_content {
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 10px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+.category_dropdown:hover .dropdown_content {
+  display: flex;
+}
+.udemy_dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.udemy_content {
+  padding: 20px;
+  height: 11vh;
+  width: 300px;
+  border: 2px solid white;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-between;
+  background-color: white;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.212) 5px 5px 20px;
+  top: 11vh;
+}
+.udemy_dropdown:hover .udemy_content {
+  display: flex;
+}
+.udedev {
+  height: 11vh;
+  width: inherit;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.udemy_content button {
+  height: 8vh;
+  width: 23vw;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.sale {
+  padding: 30px;
+  align-self: flex-start;
+  justify-content: flex-start;
+  margin-left: 4%;
+  text-transform: none;
+  position: absolute;
+  top: 100px;
+  background-color: white;
+  width: 400px;
+}
+.image2 {
+  padding: 0px;
+  align-content: space-between;
+  justify-content: flex-end;
+  margin: 0px;
+}
+.patners {
+  height: 40vh;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.centeredpatner {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+}
+.patnersIcon {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.withpadding {
+  padding: 0px 20px;
+}
+
+.coursesSection h1 {
+  font-size: 35px;
+  color: rgb(36, 35, 35);
+}
+.coursesSection p {
+  font-size: 20px;
+  margin: 20px 0px;
+  color: rgb(36, 35, 35);
+}
+.subjects {
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+  /* font-weight: 900; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0px;
+}
+.subjects a {
+  color: rgb(87, 85, 85) !important;
+}
+.subjects a:hover {
+  color: black !important;
+}
+.courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  border: 1px solid rgb(175, 161, 161);
+  width: 100%;
+}
+.centercourses {
+  height: 80vh;
+  width: 90%;
+}
+.centercourses p {
+  font-size: 20px;
+  width: 60vh;
+  font-weight: 500;
+}
+.centercourses h1 {
+  font-size: 25px;
+}
+.explore {
+  width: 150px;
+  font-size: 15px;
+}
+.coursecardsection {
+  display: flex;
+  justify-content: space-between;
+}
+.coursecard {
+  width: 19%;
+}
+.coursecard img {
+  width: 100%;
+}
+.coursecard img :hover {
+  opacity: 0.8;
+}
+.figcaption {
+  display: flex;
+  flex-direction: column;
+  height: 11px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 10px;
+}
+figcaption del {
+  font-size: 16px;
+  color: gray;
+}
+.coursecard i {
+  color: rgba(192, 110, 4, 0.993);
+  font-size: smaller;
+}
+.mainassignment {
+  height: 80vh;
+  background-color: rgb(237, 243, 242);
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 30px;
+}
+.maintext {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submain {
+  height: 50vh;
+  width: 25vw;
+  border: 1px solid rgb(182, 179, 179);
+  background-color: white;
+  justify-content: center;
+  margin-top: 30px;
+}
